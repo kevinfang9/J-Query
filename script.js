@@ -1,5 +1,11 @@
-console.log("Hello html");
+$(document).ready(function () {
 
-$9(document).ready(function(){console.log("ready")});
+    
+    $("td").click(function () {
+       $(this).css("background","gold")
+    
+    });
 
-console.log("Hello html-2");
+
+
+});
